@@ -1,27 +1,28 @@
 <html lang="fr">    
-        <head>    
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-          <meta name="description" content="">
-          <meta name="author" content="">    
-          <title>Workshop Devfest 2019</title>    
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-          <link href="style.css" rel="stylesheet">
-        </head>    
-        <body id="page-top">
-              <div class="row">
-                  <div class="col"><a href="/index.html">Home</a></div>
-                  <div class="col"><a href="/add_workshop.html">Add workshop</a></div>
-              </div>
-          <h1>add a workshop</h1>
-          <div id="addform">
-              <form id="add-workshop-form" method="post" action="/add_workshop" enctype="application/x-www-form-urlencoded">
-                  <input type="text" placeholder="title" id="title" name="title"> </br>
-                  <input type="text" placeholder="mentors" id="mentors" name="mentors"> </br>
-                  <input type="text" placeholder="description" id="description" name="description">    </br>               
-                  <button type="submit">ajouter</button>
-              </form>
-          </div>
-          <script src="/static/js/add_wokrshop.js"></script>
-        </body>
-  </html>
+	<head>    
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="description" content="">
+	  <meta name="author" content="">    
+	  <title>Veille Techno</title>    
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	  <link href="style.css" rel="stylesheet">
+	</head>    
+	<body id="page-top">
+		  <div class="row">
+			  <div class="col"><a href="index.html">home</a></div>
+			  <div class="col"><a href="add_workshop.html">Add workshop</a></div>
+		  </div>
+	  <h1>add a workshop</h1>
+	  <h2>Ajouter cette techno :</h2>
+	  <div id="addform">
+		  <form id="add-workshop-form">
+			  <input type="text" placeholder="title" id="title"> </br>
+			  <input type="text" placeholder="mentors" id="mentors"> </br>
+			  <input type="text" placeholder="description" id="description">    </br>                      
+			  <button type="submit">Add</button>
+		  </form>
+	  </div>
+	  <script src="add_workshop.js"></script>
+	</body>
+ </html>
