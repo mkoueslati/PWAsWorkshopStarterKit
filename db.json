@@ -2,33 +2,31 @@
 	"workshops":[
 		{
 			"id": 0,
-			"title": "Kotlin Study Jam",
-			"mentors": "Yosra Miladi - Instadeep",
-			"description" : "How to build a mobile web app"
+			"title": "Laravel & Vue JS",
+			"mentors": "Hamdi Gaied",
+			"description" : "Laravel & Vue JS"
 		},
 		{
 			"id": 1,
-			"title": "UX Design research methods",
-			"mentors": "Nouha Jaafar & Amine Lamine- LOLLIPOP & Chaba7 Note book",
-			"description" : "New UX tips"
+			"title": "Angular",
+			"mentors": "Seif Boubakri",
+			"description" : "Angular"
 		},
 		{
 			"id": 2,
-			"title": "Progressive Web Apps",
-			"mentors": "Mohamed Karim Oueslati - Instadeep",
-			"description" : "Basics of PWA"
-		},
-		{
+			"title": "Flutter",
+			"mentors": "Oussema Maatallah",
+			"description" : "Flutter"
+		},{
 			"id": 3,
-			"title": "Computer Vision: Basics and Applications",
-			"mentors": "Nourchene Ferchichi & Sabrine Krichen- Instadeep",
-			"description" : "Computer Vision: Basics and Applications"
-		},
-		{
+			"title": "React .JS",
+			"mentors": "Bassem Karbia",
+			"description" : "React .JS"
+		},{
 			"id": 4,
-			"title": "AI overview: Your first steps into understanding IT",
-			"mentors": "Elyes Manai & Alaa Triki -Data Co-Lab",
-			"description" : "AI overview: Your first steps into understanding IT"
+			"title": "Progressive Web Apps",
+			"mentors": "Mohamed Karim Oueslati",
+			"description" : "Basics of PWA"
 		}
 	]
 }
